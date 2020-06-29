@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GAContainer_Example' do
+  pod 'GAContainer', :path => '../'
+
+  target 'GAContainer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
